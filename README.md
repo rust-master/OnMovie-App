@@ -1,4 +1,4 @@
-# <img src="omoviesi.png" width="100" height="100"/> OnMovie App
+# <img src="omoviesi.png" width="80" height="80"/> OnMovie App
 
 OnMovies App developed using Android Studio, Firebase Realtime database Purpose: Entertainment ( Movies, Trailers, Ads)
 
