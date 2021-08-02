@@ -5,7 +5,7 @@ OnMovies App developed using Android Studio, Firebase Realtime database Purpose:
 <img src="Asset 1.png" />
 
 
-Functionalities:
+### Functionalities:
 - Attractive UI
 - Search
 - 95% Functional
