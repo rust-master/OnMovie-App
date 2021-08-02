@@ -11,3 +11,5 @@ Functionalities:
 - Movies Detail and Watch
 - Youtube API
 - Realtime Database
+
+<img src="Asset 1.png" />
