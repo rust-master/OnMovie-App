@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+    <item
+
+        android:id="@+id/rateus"
+        android:title="Rate Us" />
+    <item
+
+        android:id="@+id/aboutid"
+        android:title="@string/about_us" />
+    <item
+
+        android:id="@+id/moreapps"
+        android:title="More Apps" />
+    <item
+        android:id="@+id/moregames"
+        android:title="More Games" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        android:title="Search" />
+
+
+</menu>

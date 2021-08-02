@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    app:cardElevation="4dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+            <!--android:id="@+id/floatingActionButtont"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:clickable="true"-->
+            <!--android:background=""-->
+            <!--app:layout_constraintBottom_toBottomOf="@+id/imageView"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/imageView"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/imageView"-->
+            <!--android:src="@drawable/ic_play_arrow_black_24dp" />-->
+
+        <ImageButton
+            android:id="@+id/fab"
+            style="@style/FloatingActionButton"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/movie_imaget"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gradient_bg"
+            />
+
+
+        <TextView
+            android:id="@+id/movie_namet"
+            android:text="Name of Movie"
+            android:textColor="#ffffff"
+            android:background="@color/overlBackground"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

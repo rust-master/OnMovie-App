@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v21/fab_background.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable-v21/ic_menu_manage.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/gradient_bg.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/ic_info_black_24dp.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/ic_play_arrow_black_24dp.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/scrollbar.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/text_style.xml" value="0.1935" />
+        <entry key="app/src/main/res/layout/activity_movie_list.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_privacy_policy.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_sec.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_selected_animated.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_selected_holly.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_selected_movie.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_selected_trailer.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/app_bar_layout.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/films_itemb.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/films_itemh.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/fragment_animated_movies.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/fragment_bolly_wood.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/fragment_hollywood.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/fragment_lolly_wood.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/fragment_trailers.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/trailer_item.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.3265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,87 @@
+<resources>
+
+
+    <string name="title_activity_movies_lists">MoviesLists</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutname">Muhammad Zaryab Rafique</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="about_us">Privacy Policy</string>
+    <string name="app_names">OnMovies</string>
+    <string name="team_lead">Team Lead</string>
+    <string name="m_arslan">M.Arslan</string>
+    <string name="m_zaryab_rafique">M.Zaryab Rafique</string>
+    <string name="android_developer">Android Developer</string>
+
+
+
+
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Interstitial Ad</string>
+    <string name="btn_rewarded_video">Show Rewarded Video Ad</string>
+
+    <!-- TODO - add your ad unit Ids -->
+    <!-- AdMob ad unit IDs -->
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-1698402389310006~4665606383
+</string>
+    <string name="home_banner_ad_id" translatable="false">ca-app-pub-1698402389310006/2389322056</string>
+    <string name="reward_video_ad_id" translatable="false">ca-app-pub-1698402389310006/2182913276</string>
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-1698402389310006/7048227144</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="privacy_policy">
+        Our games will collect some Personal Data from its Users.\n\n
+        Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection. The Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Application. All Data requested by this Application is mandatory and failure to provide this Data may make it impossible for this Application to provide its services. In cases where this Application specifically states that some Data is not mandatory, Users are free not to communicate this Data without any consequences on the availability or the functioning of the service. Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.\n\n
+
+Any use of Cookies – or of other tracking tools – by this Application or by the owners of third-party services used by this Application serves the purpose of providing the service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available. Users are responsible for any third-party Personal Data obtained, published or shared through this Application and confirm that they have the third party’s consent to provide the Data to the Owner. Mode and place of processing the Data\n\n
+
+Methods of processing\n
+The Data Controller processes the Data of Users in a proper manner and shall take appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data. Data processing is carried out using computers and/or IT-enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Data Controller, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of the site (administration, sales, marketing, legal, system administration) or external parties (such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Data Controller at any time.\n\n
+
+Place\n
+The Data is processed at the Data Controller’s operating offices and in any other places where the parties involved with the processing are located. For further information, please contact the Data Controller.\n\n
+
+Retention time\n
+The Data is kept for the time necessary to provide the service requested by the User, or stated by the purposes outlined in this document, and the User can always request that the Data Controller suspend or remove the data.\n\n
+
+The use of the collected Data\n
+The Data concerning the User is collected to allow the Owner to provide its services, as well as for the following purposes: Displaying content from external platforms and Advertising. The Personal Data used for each purpose is outlined in the specific sections of this document.\n\n
+
+Detailed information on the processing of Personal Data
+Personal Data is collected for the following purposes and using the following services:\n\n
+
+Advertising\n
+This type of service allows User Data to be utilized for advertising communication purposes displayed in the form of banners and other advertisements on this Application, possibly based on User interests.
+This does not mean that all Personal Data is used for this purpose. Information and conditions of use are shown below.
+Some of the services listed below may use Cookies to identify Users or they may use the behavioral retargeting technique, i.e. displaying ads tailored to the User’s interests and behavior, including those detected outside this Application. For more information, please check the privacy policies of the relevant services.
+In addition to any opt-out offered by any of the services below, the User may opt out of a third-party service’s use of cookies by visiting the Network Advertising Initiative opt-out page.\n\n
+
+Google AdSense (Google Inc.)\n
+Google AdSense is an advertising service provided by Google Inc. This service uses the “Doubleclick” Cookie, which tracks use of this Application and User behavior concerning ads, products, and services offered.
+Users may decide to disable all the Doubleclick Cookies by clicking on google.com/settings/ads/onweb/optout.
+•	Displaying content from external platforms
+This type of service allows you to view content hosted on external platforms directly from the pages of this Application and interact with them.
+This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.\n\n
+
+YouTube video widget (Google Inc.)\n
+YouTube is a video content visualization service provided by Google Inc. that allows this Application to incorporate the content of this kind on its pages.
+    </string>
+
+
+</resources>

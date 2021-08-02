@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1053074737084",
+    "firebase_url": "https://imovies-f0c82.firebaseio.com",
+    "project_id": "imovies-f0c82",
+    "storage_bucket": "imovies-f0c82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053074737084:android:d8862763d3757626",
+        "android_client_info": {
+          "package_name": "com.nextlogic.omovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053074737084-i3v5mf04ds0n0kkrdrro4ffjunrh3m9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nextlogic.omovie",
+            "certificate_hash": "a803cf55da9fbf721e9c2a7d9dc97e4639589a17"
+          }
+        },
+        {
+          "client_id": "1053074737084-kl8k2dl01f00a5jpp3loto9c43efr85c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6NUCQJUB8HVOj_y7-X6QwZoAp7SEZJrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053074737084-kl8k2dl01f00a5jpp3loto9c43efr85c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

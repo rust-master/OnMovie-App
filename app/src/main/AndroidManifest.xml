@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zaryab.omovie">
+
+    <uses-sdk tools:overrideLibrary="com.mancj.materialsearchbar" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:label="@string/app_names"
+        android:name="com.zaryab.omovie.MyApplication"
+        tools:replace="android:label"
+        android:theme="@style/AppTheme">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1698402389310006~4665606383"/>
+
+        <activity android:name="com.zaryab.omovie.SelectedTrailer" />
+        <activity android:name="com.zaryab.omovie.SelectedAnimated" />
+        <activity android:name="com.zaryab.omovie.SelectedHolly" />
+        <activity android:name="com.zaryab.omovie.SelectedBolly" />
+        <activity android:name="com.zaryab.omovie.SelectedMovie" />
+        <activity android:name="com.zaryab.omovie.PrivacyPolicyActivity" />
+        <activity android:name="com.zaryab.omovie.SplashActivity" ><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name="com.zaryab.omovie.SecActivity">
+
+
+
+        </activity>
+
+
+    </application>
+
+</manifest>

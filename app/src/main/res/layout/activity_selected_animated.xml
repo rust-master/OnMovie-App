@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedAnimated">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="OMovies"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <include
+            android:id="@+id/main_page_toolbar"
+            layout="@layout/app_bar_layout" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_marginTop="50dp"
+            android:id="@+id/youtube_playerani"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            >
+
+        </com.google.android.youtube.player.YouTubePlayerView>
+
+        <ImageView
+            android:id="@+id/coverImageAni"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:scaleType="centerCrop"
+            />
+
+        <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+        <!--android:id="@+id/btnplayt"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="180dp"-->
+
+        <!--android:clickable="true"-->
+        <!--android:src="@drawable/ic_play_arrow_black_24dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/imageView"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/imageView"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/imageView" />-->
+
+
+        <ImageButton
+            android:id="@+id/fab"
+            style="@style/FloatingActionButton"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/txtani"
+            android:textStyle="bold"
+            android:text="Name of Trailer"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_below="@id/youtube_playerani"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card"
+            android:layout_width="394dp"
+            android:layout_height="274dp"
+            android:layout_below="@+id/txtani"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="52dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="15dp"
+            app:cardPreventCornerOverlap="false">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/decriptionani"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_style"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"
+                    android:text="Description of Trailer"
+                    android:textColor="@android:color/white"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp" />
+
+
+            </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+        <com.google.android.gms.ads.AdView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/home_activity_banner_adview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="@string/home_banner_ad_id" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

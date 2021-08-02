@@ -1,0 +1,5 @@
+<root>
+    <item name='android.app.AlertDialog'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

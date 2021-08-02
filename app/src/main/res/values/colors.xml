@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff0000</color>
+    <color name="colorPrimaryDark">#cc0000</color>
+    <color name="colorAccent">#cc0000</color>
+
+
+    <color name="overlBackground">#7f333639</color>
+    <color name="overlActivebar">#0e0d0e</color>
+    <color name="placeorder">#A8D33E</color>
+</resources>
