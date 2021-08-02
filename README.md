@@ -2,6 +2,9 @@
 
 OnMovies App developed using Android Studio, Firebase Realtime database Purpose: Entertainment ( Movies, Trailers, Ads)
 
+<img src="Asset 1.png" />
+
+
 Functionalities:
 - Attractive UI
 - Search
@@ -11,5 +14,3 @@ Functionalities:
 - Movies Detail and Watch
 - Youtube API
 - Realtime Database
-
-<img src="Asset 1.png" />
